@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1699FC01E29EE1500E09E7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1699FBF1E29EE1500E09E7F /* AppDelegate.swift */; };
+		E1699FC21E29EE1500E09E7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1699FC11E29EE1500E09E7F /* ViewController.swift */; };
+		E1699FC51E29EE1500E09E7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1699FC31E29EE1500E09E7F /* Main.storyboard */; };
+		E1699FC81E29EE1500E09E7F /* CollegeGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1699FC61E29EE1500E09E7F /* CollegeGo.xcdatamodeld */; };
+		E1699FCA1E29EE1500E09E7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1699FC91E29EE1500E09E7F /* Assets.xcassets */; };
+		E1699FCD1E29EE1500E09E7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1699FCB1E29EE1500E09E7F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1699FBC1E29EE1500E09E7F /* CollegeGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollegeGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1699FBF1E29EE1500E09E7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1699FC11E29EE1500E09E7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1699FC41E29EE1500E09E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1699FC71E29EE1500E09E7F /* CollegeGo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CollegeGo.xcdatamodel; sourceTree = "<group>"; };
+		E1699FC91E29EE1500E09E7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1699FCC1E29EE1500E09E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1699FCE1E29EE1600E09E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1699FB91E29EE1500E09E7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1699FB31E29EE1500E09E7F = {
+			isa = PBXGroup;
+			children = (
+				E1699FBE1E29EE1500E09E7F /* CollegeGo */,
+				E1699FBD1E29EE1500E09E7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1699FBD1E29EE1500E09E7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1699FBC1E29EE1500E09E7F /* CollegeGo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1699FBE1E29EE1500E09E7F /* CollegeGo */ = {
+			isa = PBXGroup;
+			children = (
+				E1699FBF1E29EE1500E09E7F /* AppDelegate.swift */,
+				E1699FC11E29EE1500E09E7F /* ViewController.swift */,
+				E1699FC31E29EE1500E09E7F /* Main.storyboard */,
+				E1699FC91E29EE1500E09E7F /* Assets.xcassets */,
+				E1699FCB1E29EE1500E09E7F /* LaunchScreen.storyboard */,
+				E1699FCE1E29EE1600E09E7F /* Info.plist */,
+				E1699FC61E29EE1500E09E7F /* CollegeGo.xcdatamodeld */,
+			);
+			path = CollegeGo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1699FBB1E29EE1500E09E7F /* CollegeGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1699FD11E29EE1600E09E7F /* Build configuration list for PBXNativeTarget "CollegeGo" */;
+			buildPhases = (
+				E1699FB81E29EE1500E09E7F /* Sources */,
+				E1699FB91E29EE1500E09E7F /* Frameworks */,
+				E1699FBA1E29EE1500E09E7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollegeGo;
+			productName = CollegeGo;
+			productReference = E1699FBC1E29EE1500E09E7F /* CollegeGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1699FB41E29EE1500E09E7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mario Hernandez";
+				TargetAttributes = {
+					E1699FBB1E29EE1500E09E7F = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E1699FB71E29EE1500E09E7F /* Build configuration list for PBXProject "CollegeGo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1699FB31E29EE1500E09E7F;
+			productRefGroup = E1699FBD1E29EE1500E09E7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1699FBB1E29EE1500E09E7F /* CollegeGo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1699FBA1E29EE1500E09E7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1699FCD1E29EE1500E09E7F /* LaunchScreen.storyboard in Resources */,
+				E1699FCA1E29EE1500E09E7F /* Assets.xcassets in Resources */,
+				E1699FC51E29EE1500E09E7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1699FB81E29EE1500E09E7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1699FC21E29EE1500E09E7F /* ViewController.swift in Sources */,
+				E1699FC81E29EE1500E09E7F /* CollegeGo.xcdatamodeld in Sources */,
+				E1699FC01E29EE1500E09E7F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1699FC31E29EE1500E09E7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1699FC41E29EE1500E09E7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1699FCB1E29EE1500E09E7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1699FCC1E29EE1500E09E7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1699FCF1E29EE1600E09E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1699FD01E29EE1600E09E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1699FD21E29EE1600E09E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CollegeGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Quartzy.CollegeGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E1699FD31E29EE1600E09E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CollegeGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Quartzy.CollegeGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1699FB71E29EE1500E09E7F /* Build configuration list for PBXProject "CollegeGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1699FCF1E29EE1600E09E7F /* Debug */,
+				E1699FD01E29EE1600E09E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1699FD11E29EE1600E09E7F /* Build configuration list for PBXNativeTarget "CollegeGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1699FD21E29EE1600E09E7F /* Debug */,
+				E1699FD31E29EE1600E09E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E1699FC61E29EE1500E09E7F /* CollegeGo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E1699FC71E29EE1500E09E7F /* CollegeGo.xcdatamodel */,
+			);
+			currentVersion = E1699FC71E29EE1500E09E7F /* CollegeGo.xcdatamodel */;
+			path = CollegeGo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E1699FB41E29EE1500E09E7F /* Project object */;
+}
