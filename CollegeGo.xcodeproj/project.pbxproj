@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E1699FC01E29EE1500E09E7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1699FBF1E29EE1500E09E7F /* AppDelegate.swift */; };
-		E1699FC21E29EE1500E09E7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1699FC11E29EE1500E09E7F /* ViewController.swift */; };
+		E1699FC21E29EE1500E09E7F /* LoginRegistarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1699FC11E29EE1500E09E7F /* LoginRegistarController.swift */; };
 		E1699FC51E29EE1500E09E7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1699FC31E29EE1500E09E7F /* Main.storyboard */; };
 		E1699FC81E29EE1500E09E7F /* CollegeGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1699FC61E29EE1500E09E7F /* CollegeGo.xcdatamodeld */; };
 		E1699FCA1E29EE1500E09E7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1699FC91E29EE1500E09E7F /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		E1699FBC1E29EE1500E09E7F /* CollegeGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollegeGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1699FBF1E29EE1500E09E7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1699FC11E29EE1500E09E7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1699FC11E29EE1500E09E7F /* LoginRegistarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegistarController.swift; sourceTree = "<group>"; };
 		E1699FC41E29EE1500E09E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1699FC71E29EE1500E09E7F /* CollegeGo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CollegeGo.xcdatamodel; sourceTree = "<group>"; };
 		E1699FC91E29EE1500E09E7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				E1699FBF1E29EE1500E09E7F /* AppDelegate.swift */,
-				E1699FC11E29EE1500E09E7F /* ViewController.swift */,
+				E1699FC11E29EE1500E09E7F /* LoginRegistarController.swift */,
 				E1699FC31E29EE1500E09E7F /* Main.storyboard */,
 				E1699FC91E29EE1500E09E7F /* Assets.xcassets */,
 				E1699FCB1E29EE1500E09E7F /* LaunchScreen.storyboard */,
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1699FC21E29EE1500E09E7F /* ViewController.swift in Sources */,
+				E1699FC21E29EE1500E09E7F /* LoginRegistarController.swift in Sources */,
 				E1699FC81E29EE1500E09E7F /* CollegeGo.xcdatamodeld in Sources */,
 				E1699FC01E29EE1500E09E7F /* AppDelegate.swift in Sources */,
 			);
